@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer": 2,
+    "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -45,7 +45,7 @@
       "pads",
       "zones",
       "drc_warnings",
-      "locked_item_shadows",
+      "drc_exclusions",
       "conflict_shadows",
       "shapes"
     ],
@@ -53,16 +53,19 @@
     "zone_display_mode": 0
   },
   "git": {
+    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "DispKey.kicad_prl",
+    "filename": "PM_Controller.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -84,19 +87,23 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
-      282,
-      267,
-      162,
-      99,
-      162,
-      162,
-      162,
-      99,
-      162,
-      162
+      174,
+      159,
+      100,
+      63,
+      100,
+      100,
+      100,
+      63,
+      100,
+      100,
+      100,
+      100
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
