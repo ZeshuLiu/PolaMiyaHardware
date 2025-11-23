@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 2,
-    "active_layer_preset": "",
-    "auto_track_width": false,
+    "active_layer": 7,
+    "active_layer_preset": "All Layers",
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -45,7 +45,7 @@
       "pads",
       "zones",
       "drc_warnings",
-      "drc_exclusions",
+      "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
@@ -53,19 +53,16 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PM_Controller.kicad_prl",
+    "filename": "FlashAdapter.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -87,23 +84,19 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
     "col_widths": [
-      305,
-      278,
-      175,
-      110,
-      175,
-      175,
-      175,
-      110,
-      175,
-      175,
-      175,
-      175
+      282,
+      267,
+      162,
+      99,
+      162,
+      162,
+      162,
+      99,
+      162,
+      162
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
