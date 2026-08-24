@@ -2487,6 +2487,12 @@
 		)
 	)
 	(junction
+		(at 133.35 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ecc3ecf-27ae-4a50-a529-97a673f19d61")
+	)
+	(junction
 		(at 123.19 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2511,12 +2517,6 @@
 		(uuid "4b6f5cca-c36a-49dc-b6d5-874945915050")
 	)
 	(junction
-		(at 146.05 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "699d34ab-468d-4cbf-9ddd-c452a28221ee")
-	)
-	(junction
 		(at 123.19 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2535,22 +2535,10 @@
 		(uuid "9fa50a85-b1c4-4cc2-aba6-ca9a740d620d")
 	)
 	(junction
-		(at 134.62 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3777a62-be69-47b3-b77e-5eed1ca7786a")
-	)
-	(junction
 		(at 43.18 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0f9849b-5f32-4ed3-bb4f-ec63a367a7f6")
-	)
-	(junction
-		(at 134.62 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c72803fd-bc13-4058-b8be-e77dba2c6bd3")
 	)
 	(no_connect
 		(at 41.91 31.75)
@@ -2602,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 78.74) (xy 146.05 83.82)
+			(xy 133.35 78.74) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 93.98) (xy 134.62 93.98)
+			(xy 123.19 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2699,16 +2687,6 @@
 			(type default)
 		)
 		(uuid "4119cb3b-08ed-48da-9384-54449b00be06")
-	)
-	(wire
-		(pts
-			(xy 123.19 78.74) (xy 134.62 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43160347-063a-42dc-8c32-afe19a79073a")
 	)
 	(wire
 		(pts
@@ -2802,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 146.05 93.98)
+			(xy 133.35 91.44) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2852,6 +2830,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac49bd8b-11a7-4266-aa83-2944ce7d2597")
+	)
+	(wire
+		(pts
 			(xy 55.88 90.17) (xy 59.69 90.17)
 		)
 		(stroke
@@ -2889,16 +2877,6 @@
 			(type default)
 		)
 		(uuid "bd956fac-226f-4374-8e15-5202d230463a")
-	)
-	(wire
-		(pts
-			(xy 134.62 93.98) (xy 146.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66850e9-4ee2-47d3-9618-d504d61b314c")
 	)
 	(wire
 		(pts
@@ -2949,16 +2927,6 @@
 			(type default)
 		)
 		(uuid "cdd71542-415d-4a2d-9da6-1bdecc699294")
-	)
-	(wire
-		(pts
-			(xy 146.05 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce258815-d4e3-488e-b4ff-fab9f1c82a14")
 	)
 	(wire
 		(pts
@@ -3022,17 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 78.74) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc6575b1-6a72-426f-a441-c24005e99781")
-	)
-	(wire
-		(pts
-			(xy 134.62 78.74) (xy 146.05 78.74)
+			(xy 123.19 78.74) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3059,16 +3017,6 @@
 			(type default)
 		)
 		(uuid "e707b63c-d561-4b38-850d-60a06bd82492")
-	)
-	(wire
-		(pts
-			(xy 134.62 92.71) (xy 134.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee8e064c-0741-4d97-aa6e-e4d25aa9b5a8")
 	)
 	(wire
 		(pts
@@ -3161,7 +3109,7 @@
 		(uuid "65f70dce-2abb-4bcb-b934-9c2ebdb455a3")
 	)
 	(label "Motor+"
-		(at 158.75 78.74 180)
+		(at 140.97 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3594,7 +3542,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819WS")
-		(at 146.05 87.63 270)
+		(at 133.35 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3603,7 +3551,7 @@
 		(fields_autoplaced yes)
 		(uuid "431f54c4-f32c-4e1c-b345-e0e6d10254c9")
 		(property "Reference" "D4"
-			(at 148.59 86.0424 90)
+			(at 135.89 86.0424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3560,7 @@
 			)
 		)
 		(property "Value" "1N5819WS"
-			(at 148.59 88.5824 90)
+			(at 135.89 88.5824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3569,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 141.605 87.63 0)
+			(at 128.905 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3578,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 146.05 87.63 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3587,7 @@
 			)
 		)
 		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 146.05 87.63 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
