@@ -10,3 +10,4 @@ code/MainController2/MDK-ARM/out/*
 code/MainController2/MDK-ARM/tmp/*
 code/MainController2/MDK-ARM/*.log
 .claude/settings.local.json
+/电路/硬件Rev3电路/对焦组件/对焦组件-backups
