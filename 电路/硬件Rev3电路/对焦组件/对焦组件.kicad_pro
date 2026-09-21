@@ -94,14 +94,6 @@
           ""
         ],
         [
-          "silk_over_copper|134675476|87854820|cd698815-64e3-4983-a5d4-cabb06ca10d5|5316cea9-50e0-4ed1-8f1f-459edf3d9044",
-          ""
-        ],
-        [
-          "silk_overlap|132407500|87962743|0e46d7f2-0069-4092-81a2-a439f83e6ef0|cd698815-64e3-4983-a5d4-cabb06ca10d5",
-          ""
-        ],
-        [
           "starved_thermal|110547500|98850001|843becde-841e-4367-988f-9f4c6c612d1f|aa1820df-d005-44b2-bd75-bfe5a6f55262|F.Cu",
           ""
         ],
@@ -195,7 +187,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -298,7 +290,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -584,7 +576,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "对焦组件_R1_0.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -719,7 +711,7 @@
         "uuid": "90cdb528-c522-49f4-9071-f098cf52f822"
       }
     ],
-    "used_designators": "U1-3,#PWR1-30,C1-18,R1-12,FB1,TP1-6,CN1-2,Y1,L1,TH1,H1-4,J1",
+    "used_designators": "U1-3,#PWR1-32,C1-19,R1-12,FB1,TP1-6,CN1-2,Y1,L1,TH1,H1-4,J1",
     "variants": []
   },
   "sheets": [
