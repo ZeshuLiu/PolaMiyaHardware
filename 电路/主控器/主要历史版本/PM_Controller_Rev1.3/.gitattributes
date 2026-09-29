@@ -1,0 +1,2 @@
+# Preserve archived bytes and inherited whitespace across Git checkouts.
+* -text -whitespace
