@@ -1,28 +1,18 @@
 # 结构与 PCB 兼容性表
 
-更新日期：2026-10-06。
+更新：2026-10-06。结构与 PCB 分别编号，PCB 版本以设计文件标题栏为准。
 
-本表记录已确认的结构与 PCB 对应关系，结构版本与 PCB 版本独立编号。**Rev2N 的既有电路与 Rev3 电路按下表对应；主控器 Rev 2.0 机械装配已确认，已投产，等待首件验证。**
-
-PCB 版本以对应 `.kicad_pcb` 标题栏的 `rev` 为准，并核对原理图；未标注版本的板不推定版本号。Rev2N 主控板及与其绑定的 Display Key 指向同一历史版本目录，其他板指向现有工程。本表记录版本归属，不代表已完成各板的装配、电气联调或新版投产验证，也不推定 Rev3 整机其余电路的兼容性。
-
-## 兼容性表
-
-| 对应结构 | PCB / 功能 | 当前 PCB 版本 | 设计文件 | 版本与投产资料说明 |
+| 结构 | PCB | 版本 | 工程 | 备注 |
 | --- | --- | --- | --- | --- |
-| Rev2N | 主控板 PM_Controller | **Rev 1.3（冻结归档）** | [PM_Controller.kicad_pcb](电路/主控器/主要历史版本/PM_Controller_Rev1.3/PM_Controller.kicad_pcb) | **与 Display Key Rev 1.0 绑定使用，一并归档**；PCB / 原理图均为 1.3，PCB 日期为 2026-02-03；丝印仍为 Rev1.2；归档 `production/` 中有 `PM_Controller_1.2.zip` 和 `PM_Controller_Rev1.zip`，未见按 1.3 命名的投产包；见[版本说明](电路/主控器/主要历史版本/PM_Controller_Rev1.3/版本说明.md)。 |
-| Rev2N | 显示与按键板 Display Key / DispKey / PM_DISP | **Rev 1.0（配套冻结归档）** | [DispKey.kicad_pcb](电路/主控器/主要历史版本/PM_Controller_Rev1.3/DispKey/DispKey.kicad_pcb) | **与 PM_Controller Rev 1.3 绑定使用**；PCB / 原理图均为 1.0，PCB 日期为 2025-06-04；投产包为 `PM_DISP_1.0.zip`，与主控板一并归档。 |
-| Rev2N | 吐片电机驱动板 MotroDrive | **Rev 1.2** | [MotroDrive.kicad_pcb](电路/电机驱动/MotroDrive/MotroDrive.kicad_pcb) | PCB / 原理图均为 1.2，PCB 日期为 2026-03-15；丝印仍为 Rev1.0；`production/` 中有 `MotroDrive_1.1.zip` 和 `MotroDriveR1_20250410.zip`，未见按 1.2 命名的投产包。 |
-| Rev2N | 闪光灯转接板 FlashAdapter | **未标注 Rev（2025-11-23 版）** | [FlashAdapter.kicad_pcb](电路/闪光灯转接/FlashAdapter/FlashAdapter.kicad_pcb) | PCB 标题栏仅标日期 2025-11-23；原理图也未标 Rev；投产包为 `FlashAdapter.zip`，不将其默认记为 1.0。 |
-| Rev3 | 对焦组件 / Focus Unit Drive | **Rev 1.0** | [对焦组件.kicad_pcb](电路/对焦组件/对焦组件.kicad_pcb) | PCB / 原理图及丝印均为 1.0，PCB 日期为 2026-09-19；投产包为 `Focus_Unit_Drive_1.0.zip`；[引脚说明](电路/对焦组件/对焦组件_Rev_1.0_PIN.md)。 |
-| Rev3（机械装配已确认） | 新版主控板 PM_Controller | **Rev 2.0** | [PM_Controller.kicad_pcb](电路/主控器/PM_Controller/PM_Controller.kicad_pcb) | PCB / 原理图标题栏均为 2.0，日期为 2026-10-06；采用 ESP32-S3-WROOM-1，2026-10-06 已投产，等待首件验证；加工包为 `production/PM_Controller_2.0.zip`，剩余事项按 README 中的 Features 推进。Display Key Rev 1.0 的历史绑定关系不自动沿用。 |
+| Rev2N | 主控器 PM_Controller | 1.3 | [历史主控](电路/主控器/主要历史版本/PM_Controller_Rev1.3/) | 已归档，与 DispKey 1.0 配套 |
+| Rev2N | 显示按键板 DispKey | 1.0 | [显示按键板](电路/主控器/主要历史版本/PM_Controller_Rev1.3/DispKey/) | 与主控器 1.3 一并归档 |
+| Rev2N | 吐片电机驱动 MotroDrive | 1.2 | [电机驱动](电路/电机驱动/MotroDrive/) | 该版验证结果未记录 |
+| Rev2N | 闪光灯转接 FlashAdapter | 未编号，2025-11-23 版 | [闪光灯转接](电路/闪光灯转接/FlashAdapter/) | 工程未标版本号 |
+| Rev3 | 对焦组件 Focus Unit Drive | 1.0 | [对焦组件](电路/对焦组件/) | STM32F030F4 |
+| Rev3 | 主控器 PM_Controller | 2.0 | [当前主控](电路/主控器/PM_Controller/) | ESP32-S3；装配已确认，已投产，待首件验证 |
 
-## 当前改动与版本注意事项
+- 主控器 1.3 丝印为 Rev1.2；电机驱动 1.2 丝印为 Rev1.0。两者均未找到按当前设计版本命名的加工包，使用旧包前需核对内容。主控器归档细节见[版本说明](电路/主控器/主要历史版本/PM_Controller_Rev1.3/版本说明.md)。
+- 主控器 2.0 的加工包为 [PM_Controller_2.0.zip](电路/主控器/PM_Controller/production/PM_Controller_2.0.zip)。首件待办见 [README](ReadMe.md#pm_controller-rev-20-状态与-features)。
+- Rev2N 的 DispKey、电机驱动和闪光灯转接板尚未确认适用于 Rev3。
 
-- 主控器 Rev 1.3 完整归档至 `电路/主控器/主要历史版本/PM_Controller_Rev1.3/`，由归档复制建立 `电路/主控器/PM_Controller/` 开发副本。归档时两份电路内容相同；今后开发副本的变更不自动改变 Rev2N 的对应版本。
-- 当前工程为 Rev 2.0 独立设计；旧版库、BOM 和加工输出仍保存在 Rev 1.3 归档中。2026-10-06 已生成 Rev 2.0 加工包、BOM、坐标、位号和网络表，并已投产，后续进行首件验证。
-- 绑定的 Display Key Rev 1.0 从 `电路/主控器/DispKey/` 整体移至该主控器历史版本的 `DispKey/` 子目录；原有工程、库和加工资料保持不变。
-- 对焦组件由 `电路/硬件Rev3电路/对焦组件/` 移至 `电路/对焦组件/`。提交目录调整前已核对 PCB、原理图、工程文件和引脚说明内容一致，本次目录调整不构成 PCB 升版。
-- 主控器 Rev 1.3 的提交记录为“硬件1.3版本，调整闪光灯为默认过MCU”（`43d0dd1`）。
-- 电机驱动 Rev 1.2 的标题栏记录：升压二极管改为 SS34、修改为单面布局、输入储能电容改为电源 GND；对应提交为“驱动电路升级至R1.2 未验证”（`c09a9e7`），现有记录不能据此认定该版已验证。
-- 主控器和电机驱动的当前设计版本与丝印、投产包名称不一致。选择加工文件时应核对实际包内内容；旧版本包不能仅凭目录位置视为当前设计的加工输出。
+固件对应关系见软件仓库的[软件与 PCB 兼容性表](../PolaMiyaSoftware/软件与PCB兼容性表.md)。

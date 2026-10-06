@@ -19,3 +19,8 @@ code/MainController2/MDK-ARM/*.log
 debug.log
 /focus_*.obj
 /test_*.obj
+
+# Local KiCad editor state and automatic backups
+*.kicad_prl
+*-backups/
+**/production/backups/
