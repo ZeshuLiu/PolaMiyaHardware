@@ -267,15 +267,23 @@
           ""
         ],
         [
-          "solder_mask_bridge|65936093|103077500|f533a713-43c7-406c-a4ed-5be510a3a485|3279edbe-03ee-484e-89b7-566a626f430c",
+          "solder_mask_bridge|65936093|103077500|3279edbe-03ee-484e-89b7-566a626f430c|f533a713-43c7-406c-a4ed-5be510a3a485",
           ""
         ],
         [
-          "solder_mask_bridge|72886092|103077500|0c505e87-52fc-4bb2-90f4-778589a96664|9047e9b2-8c87-4d55-bf99-81d92f96a893",
+          "solder_mask_bridge|72886092|103077500|9047e9b2-8c87-4d55-bf99-81d92f96a893|0c505e87-52fc-4bb2-90f4-778589a96664",
+          ""
+        ],
+        [
+          "starved_thermal|61186092|142475000|bf7c9d6a-9b76-4e03-92f7-41d4d4dba0b3|e39e89f5-792c-4109-bd5a-e53461391e89|F.Cu",
           ""
         ],
         [
           "starved_thermal|70623591|155537498|49eea9e8-92de-4e7b-a8ba-84e6298cace0|ae2d9635-2647-4c47-95a8-20f4a83c6a51|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|81248592|142000000|bf7c9d6a-9b76-4e03-92f7-41d4d4dba0b3|850881d2-e16b-4b1e-8f70-bd9a698b02dc|F.Cu",
           ""
         ],
         [
@@ -928,7 +936,7 @@
         "uuid": "7185bc4a-db7d-484e-8ff2-a58428806037"
       }
     ],
-    "used_designators": "FPC1-2,U1-19,#PWR1-107,L1-2,R1-5,R7-59,C1-14,C16-31,Q1-5,Y1,H1-7,USB1,JP1-2,SW1-5,J1",
+    "used_designators": "FPC1-2,U1-19,#PWR1-108,L1-2,R1-5,R7-59,C1-14,C16-32,Q1-5,Y1,H1-9,USB1,JP1-2,SW1-5,J1",
     "variants": []
   },
   "sheets": [
