@@ -24,8 +24,15 @@
 | [电机驱动](电路/电机驱动/MotroDrive/) | 吐片电机驱动板 |
 | [闪光灯转接](电路/闪光灯转接/FlashAdapter/) | 闪光灯转接板 |
 | [对焦组件](电路/对焦组件/) | Rev3 对焦驱动板，PCB Rev 1.0 |
+| [电源管理](电路/电源管理/PowerManager/) | Power Manager Rev 1.0，保存原理图、PCB、项目规则、加工资料及历史审查记录 |
 
-> 当前主控器 Rev 2.0 与对焦组件由 **KiCad 10** 保存，历史主控器、显示按键、电机驱动和闪光灯转接工程由 **KiCad 9** 保存。加工包和 BOM 位于相应模块的 `production/` 子目录中；使用前请核对兼容性表和输出快照。主控器 Rev 2.0 的投产验证资料为 `电路/主控器/PM_Controller/production/PM_Controller_2.0.zip` 及同目录 BOM、坐标、位号和网络表。
+> 当前主控器 Rev 2.0、对焦组件及电源管理板由 **KiCad 10** 保存，历史主控器、显示按键、电机驱动和闪光灯转接工程由 **KiCad 9** 保存。加工包和 BOM 位于相应模块的 `production/` 子目录中；使用前请核对兼容性表和输出快照。主控器 Rev 2.0 的投产验证资料为 `电路/主控器/PM_Controller/production/Rev_2_0/PM_Controller_2.0.zip` 及同目录 BOM、坐标、位号和网络表。电源管理板 Rev 1.0 的资料位于 `电路/电源管理/PowerManager/production/Rev_1_0/`。
+
+### 当前硬件快照整理
+
+- 主控器 Rev 2.0 的五份投产资料移入 `production/Rev_2_0/`。加工 ZIP 与原快照字节一致，BOM、位号、网络表和坐标内容未变，仅存在文本行尾差异。
+- 新增 Power Manager Rev 1.0 工程和加工资料。当前原理图、PCB 与 BOM 的 C7/C8/C9/C10 均带 25 V 标注，C11 均为 100 nF。历史审查对应的工程哈希已不同，见[快照说明](电路/电源管理/PowerManager/原理图审查.md)。本次未重新执行 ERC/DRC 或通电验证。
+- 主控 SolidWorks 装配移至 [结构Rev3/电子部分/PM_Controller R2_0.SLDASM](<结构Rev3/电子部分/PM_Controller R2_0.SLDASM>) 并保存内容更新；Rev3 总装、主片仓零件和片仓组合体同时更新。本次仅核对文件变化，未在 SolidWorks 中验证装配引用、重建或干涉。
 
 主控器后续更新在 `电路/主控器/PM_Controller/` 中进行，该工程已开始独立的 Rev 2.0 设计；`主要历史版本/PM_Controller_Rev1.3/` 保存冻结的旧版，并在其 `DispKey/` 子目录保存绑定的 Display Key Rev 1.0。历史 Display Key 不自动视为兼容新版主控器。每次重大版本归档应保存完整工程、绑定的配套 PCB、依赖库、加工资料和版本说明。
 

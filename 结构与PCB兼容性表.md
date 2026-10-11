@@ -1,6 +1,6 @@
 # 结构与 PCB 兼容性表
 
-更新：2026-10-06。结构与 PCB 分别编号，PCB 版本以设计文件标题栏为准。
+结构与 PCB 分别编号，PCB 版本以设计文件标题栏为准。既有结构适配记录于 2026-10-06 核对；新增电源板的结构适配关系仍待记录。
 
 | 结构 | PCB | 版本 | 工程 | 备注 |
 | --- | --- | --- | --- | --- |
@@ -12,7 +12,8 @@
 | Rev3 | 主控器 PM_Controller | 2.0 | [当前主控](电路/主控器/PM_Controller/) | ESP32-S3；装配已确认，已投产，待首件验证 |
 
 - 主控器 1.3 丝印为 Rev1.2；电机驱动 1.2 丝印为 Rev1.0。两者均未找到按当前设计版本命名的加工包，使用旧包前需核对内容。主控器归档细节见[版本说明](电路/主控器/主要历史版本/PM_Controller_Rev1.3/版本说明.md)。
-- 主控器 2.0 的加工包为 [PM_Controller_2.0.zip](电路/主控器/PM_Controller/production/PM_Controller_2.0.zip)。首件待办见 [README](ReadMe.md#pm_controller-rev-20-状态与-features)。
+- 主控器 2.0 的加工包为 [PM_Controller_2.0.zip](电路/主控器/PM_Controller/production/Rev_2_0/PM_Controller_2.0.zip)。首件待办见 [README](ReadMe.md#pm_controller-rev-20-状态与-features)。
+- 新增 [Power Manager Rev 1.0](电路/电源管理/PowerManager/) 及其 [加工包](电路/电源管理/PowerManager/production/Rev_1_0/Power_Manager_1.0.zip)。结构适配关系尚未记录，不据新增工程推定已完成装配验证。
 - Rev2N 的 DispKey、电机驱动和闪光灯转接板尚未确认适用于 Rev3。
 
 固件对应关系见软件仓库的[软件与 PCB 兼容性表](../PolaMiyaSoftware/软件与PCB兼容性表.md)。
