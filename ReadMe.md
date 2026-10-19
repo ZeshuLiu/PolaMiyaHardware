@@ -2,6 +2,10 @@
 
 宝丽来相机自动化改装项目的机械与电路设计部分。
 
+2026-10-19 工作快照：保存主控与电源管理 PCB、PowerManager 工程设置及 STEP、两块板的交互 BOM；同步 Rev3 总装、片仓、底壳、显示屏按钮/支架/盖板、测距组件与镜头总成，收录电池及相关电子零件模型、STL 和 3MF 文件。本次为当前设计文件归档，未执行 ERC/DRC、SolidWorks 重建或装配干涉检查。
+
+吐片电机实机结论：用户确认启动冲转及随后约半速的问题来自驱动芯片限流，解除电流限制后运行正常。具体解除方式与当前阈值未提供，本次不据此改写生产 BOM、网表或加工包。
+
 > 完整项目：https://github.com/ZeshuLiu/PolaMiya
 > 软件固件仓库：https://github.com/ZeshuLiu/PolaMiyaSoftware
 
