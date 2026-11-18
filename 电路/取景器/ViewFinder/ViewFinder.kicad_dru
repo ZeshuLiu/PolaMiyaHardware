@@ -1,0 +1,5 @@
+(version 1)
+(rule "U7 pad-to-pad clearance"
+    (layer "F.Cu")
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Reference == 'U7' && B.Reference == 'U7'")
+    (constraint clearance (min 0.15mm)))
